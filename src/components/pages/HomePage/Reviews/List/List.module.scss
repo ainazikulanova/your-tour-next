@@ -1,0 +1,17 @@
+.reviews {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  @media (max-width: 1199px) {
+    gap: 18px;
+  }
+
+  @media (max-width: 930px) {
+    margin: auto;
+    padding-top: 10px;
+    width: 357px;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+}
