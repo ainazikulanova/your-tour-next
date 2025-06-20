@@ -1,4 +1,4 @@
-import style from "./Menu.module.scss";
+import s from "./Menu.module.scss";
 import Logo from "../Logo";
 import Nav from "../Nav";
 import Contact from "../Contact";
@@ -6,7 +6,7 @@ import Contact from "../Contact";
 export default function Menu() {
   return (
     <>
-      <div id="header" className={style.menu}>
+      <div id="header" className={s.menu}>
         <Logo />
         <Nav />
         <Contact />

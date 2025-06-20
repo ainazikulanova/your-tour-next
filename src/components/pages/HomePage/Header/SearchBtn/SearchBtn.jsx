@@ -1,9 +1,9 @@
-import style from "./SearchBtn.module.scss";
+import s from "./SearchBtn.module.scss";
 
 export default function SearchBtn() {
   return (
     <>
-      <button className={style.button}>Найти тур</button>;
+      <button className={s.button}>Найти тур</button>;
     </>
   );
 }

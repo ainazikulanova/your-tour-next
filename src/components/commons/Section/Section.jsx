@@ -1,8 +1,8 @@
-import style from "./Section.module.scss";
+import s from "./Section.module.scss";
 
 export default function Section({ children, ...props }) {
   return (
-    <section className={style.section} {...props}>
+    <section className={s.section} {...props}>
       {children}
     </section>
   );
