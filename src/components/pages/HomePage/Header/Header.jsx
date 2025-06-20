@@ -1,6 +1,6 @@
 import Menu from "./Menu";
 import Section from "@/components/commons/Section";
-import SearchBtn from "../SearchBtn";
+import SearchBtn from "./SearchBtn";
 import style from "./Header.module.scss";
 
 export default function Header() {
