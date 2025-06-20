@@ -1,0 +1,19 @@
+.menu {
+  z-index: 10;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 182px;
+  background-color: #00000000;
+
+  @media (max-width: 1199px) {
+    gap: 83px;
+  }
+
+  @media (max-width: 930px) {
+    margin: auto;
+    gap: 32px;
+    align-items: center;
+  }
+}

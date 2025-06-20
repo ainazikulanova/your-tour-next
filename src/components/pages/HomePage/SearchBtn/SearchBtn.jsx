@@ -1,5 +1,9 @@
-const SearchBtn = () => {
-  <button className="header__search-btn">Найти тур</button>;
-};
+import style from "./SearchBtn.module.scss";
 
-export default SearchBtn;
+export default function SearchBtn() {
+  return (
+    <>
+      <button className={style.button}>Найти тур</button>;
+    </>
+  );
+}
