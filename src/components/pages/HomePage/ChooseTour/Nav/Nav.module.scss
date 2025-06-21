@@ -1,0 +1,59 @@
+.tour {
+  padding-top: 6px;
+  display: flex;
+  justify-content: center;
+  gap: 33px;
+  flex-wrap: wrap;
+  list-style: none;
+
+  @media (max-width: 930px) {
+    margin: 0px 45px 0px 45px;
+    padding-top: 13px;
+    height: 56px;
+    row-gap: 12px;
+    column-gap: 11px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 0 0 3px 0;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 28px;
+  color: var(--black-color);
+  background-color: var(--background-color);
+  letter-spacing: 0.009em;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+
+  @media (hover: hover) {
+    &:hover {
+      box-shadow: 0 2px 0 var(--black-color);
+    }
+  }
+
+  @media (max-width: 930px) {
+    padding: 0 0 2px 0;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 102%;
+    letter-spacing: 0;
+  }
+}
+
+@media (hover: hover) {
+  .btn_state-active:hover {
+    box-shadow: 0 2px 0 var(--active-color);
+  }
+}
+
+.btn_state-active {
+  color: var(--active-color);
+  box-shadow: 0 2px 0 var(--active-color);
+}

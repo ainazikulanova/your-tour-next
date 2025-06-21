@@ -1,0 +1,27 @@
+.cards {
+  margin: auto;
+  padding-top: 103px;
+  display: grid;
+  justify-content: center;
+  min-width: 1170px;
+  gap: 30px;
+  grid-template-columns: repeat(3, 370px);
+
+  @media (max-width: 1199px) {
+    padding-top: 103px;
+    min-width: 918px;
+    gap: 18px;
+    grid-template-columns: repeat(2, 450px);
+  }
+
+  @media (max-width: 930px) {
+    padding-top: 47px;
+    min-width: 318px;
+    grid-template-columns: repeat(1, 318px);
+  }
+
+  @media (max-width: 350px) {
+    min-width: 290px;
+    padding-left: 18px;
+  }
+}
